@@ -17,4 +17,8 @@ export class Calculator {
         }
         return a / b;
     }
+
+    square(a: number): number {
+        return a * a;
+    }
 }
